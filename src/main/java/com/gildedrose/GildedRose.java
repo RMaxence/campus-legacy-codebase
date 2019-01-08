@@ -26,7 +26,7 @@ public class GildedRose {
     public void updateQuality() {
         for (Item item : items) {
             if (!item.name.equals("Sulfuras, Hand of Ragnaros")) {
-                logger.debug("no Sulfu: i " + item.name + " - s " + item.sellIn + " - q " + item.quality);
+                logger.debug("NS: "+item.name+" "+item.sellIn+" "+item.quality);
                 SellIn(item);
                 NormalItem(item);
             }
@@ -40,11 +40,11 @@ public class GildedRose {
     public void NormalItem(Item item){
         if (item.name.equals("Aged Brie")|| item.name.equals(concert)) {
             item.quality = QualityUp(item);
-            logger.debug("Bri/Sta: i " + item.name + " - s " + item.sellIn + " - q " + item.quality);
+            logger.debug("UP: "+item.name+" "+item.sellIn+" "+item.quality);
         }
         else{
             item.quality = QualityDown(item);
-            logger.debug("no Bri/Sta: i " + item.name + " - s " + item.sellIn + " - q " + item.quality);
+            logger.debug("DW: "+item.name+" "+item.sellIn+" "+item.quality);
         }
     }
 
