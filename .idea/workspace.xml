@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="523bd47f-fc1e-4b06-901c-2b35037a1cc8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gildedrose/GildedRose.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gildedrose/GildedRose.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/gildedrose/TexttestFixture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/gildedrose/TexttestFixture.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gildedrose/GildedRose.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gildedrose/GildedRose.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,12 +45,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/gildedrose/GildedRose.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="76" column="76" selection-start-line="76" selection-start-column="76" selection-end-line="76" selection-end-column="76" />
+            <state relative-caret-position="306">
+              <caret line="74" column="111" selection-start-line="74" selection-start-column="111" selection-end-line="74" selection-end-column="111" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1118#1119#0" expanded="true" />
-                <element signature="e#1146#1147#0" expanded="true" />
+                <element signature="e#1302#1303#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -327,12 +327,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gildedrose/GildedRose.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="76" column="76" selection-start-line="76" selection-start-column="76" selection-end-line="76" selection-end-column="76" />
+        <state relative-caret-position="306">
+          <caret line="74" column="111" selection-start-line="74" selection-start-column="111" selection-end-line="74" selection-end-column="111" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1118#1119#0" expanded="true" />
-            <element signature="e#1146#1147#0" expanded="true" />
+            <element signature="e#1302#1303#0" expanded="true" />
           </folding>
         </state>
       </provider>

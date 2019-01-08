@@ -16,8 +16,6 @@ public class GildedRose {
             if (!item.name.equals("Sulfuras, Hand of Ragnaros")) {
                 logger.debug("if not Sulfuras: item " + item.name + " - sellIn " + item.sellIn + " - quality " + item.quality);
                 NoLegendaryProduct(item);
-
-
             }
         }
     }
@@ -74,7 +72,7 @@ public class GildedRose {
         if (item.quality > 0) {
             variation_quality--;
             logger.debug("quality--: item " + item.name + " - sellIn " + item.sellIn + " - quality " + item.quality);
-            if (item.name.contains("Conjured") && !(item.name.contains("Like"))){
+            if (item.name.contains("Conjured") && !(item.name.contains("Like")) && !(item.name.contains("Almost")){
                 variation_quality *= 2;
                 logger.debug("quality--*2: item " + item.name + " - sellIn " + item.sellIn + " - quality " + item.quality);
             }
