@@ -35,7 +35,7 @@ class GildedRoseTest {
         Item[] items = new Item[] { new Item("Conjured Mana Cake", 3, 25) };
         GildedRose app = new GildedRose(items);
         app.updateQuality();
-        assertThat(app.items[0].quality).isEqualTo(23);
+        assertThat(app.items[0].quality).isEqualTo(22);
         assertThat(app.items[0].sellIn).isEqualTo(2);
     }
 
