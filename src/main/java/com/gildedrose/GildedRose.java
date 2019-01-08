@@ -72,7 +72,8 @@ public class GildedRose {
         if (item.quality > 0) {
             variation_quality--;
             logger.debug("quality--: item " + item.name + " - sellIn " + item.sellIn + " - quality " + item.quality);
-            if (item.name.contains("Conjured") && !(item.name.contains("Like")) && !(item.name.contains("Almost"))){
+            //if (item.name.contains("Conjured") && !(item.name.contains("Like")) && !(item.name.contains("Almost"))){
+            if (item.name.contains("Conjured Mana")){
                 variation_quality *= 2;
                 logger.debug("quality--*2: item " + item.name + " - sellIn " + item.sellIn + " - quality " + item.quality);
             }
