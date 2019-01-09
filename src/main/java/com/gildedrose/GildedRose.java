@@ -14,7 +14,7 @@ public class GildedRose {
 
     public void updateQuality() {
         for (Item item : items) {
-            //logger.info(item.toString());
+            logger.info(item.toString());
             item.decrementSelling();
             chooseAction(item);
         }
