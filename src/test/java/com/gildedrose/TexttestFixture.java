@@ -21,7 +21,10 @@ public class TexttestFixture {
                 new Item("Almost Conjured but cheaper Mana Cake", 3, 25),
                 new Item("Like Conjured but cheaper Mana Cake", 3, 25),
                 new Item("Conjured Mana Cake", 3, 25),
-                new Item("Conjured sausage", 5,5)};
+                new Item("Conjured sausage", 5,5),
+
+                new Item("Aging Red Wine",2, 47),
+                new Item("Aging Red Wine",-97, 2)};
 
         GildedRose app = new GildedRose(items);
 
